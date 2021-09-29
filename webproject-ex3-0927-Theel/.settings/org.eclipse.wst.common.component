@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="webproject-ex3-0927-Theel">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <property name="context-root" value="webproject-ex3-0927-Theel"/>
+        <property name="java-output-path" value="/webproject-ex3-0927-Theel/build/classes"/>
+    </wb-module>
+</project-modules>
