@@ -1,0 +1,63 @@
+<html>
+<head>
+<style>
+header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1> Search Data </h1>
+</header>
+
+<nav>
+<a href="/TechExercise-Theel/simpleFormInsert.html">Insert Data</a> <br>
+<a href="/TechExercise-Theel/simpleFormSearch.html">Search Data</a> <br>
+</nav>
+
+<section>
+	<h1>User Input</h1>
+	
+	<form action="SimpleFormSearch" method="POST">
+	
+		Date: <input type="text" name="date"> <br />
+		Location: <input type="text" name="location"> <br />
+		Species: <input type="text" name="species"> <br />
+		Amount: <input type="text" name="amount"> <br />
+		Notes: <input type="text" name="notes"> <br />
+		
+		<input type="submit" value="Search" />
+	</form>
+
+</section>
+
+<footer>
+Copyright
+</footer>
+</body>
+</html>

@@ -7,9 +7,6 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/MyServletTheel")
 public class MyServletTheel extends HttpServlet {
-	static String url = "jdbc:mysql://ec2-52-14-114-155.us-east-2.compute.amazonaws.com:3306/myDB?useSSL=false";
-	static String user = "newmysqlremoteuser";
-	static String password = "mypassword";
    private static final long serialVersionUID = 1L;
 
    public MyServletTheel() {
@@ -17,7 +14,7 @@ public class MyServletTheel extends HttpServlet {
    }
 
    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-      response.getWriter().append("Hello World!!");
+      response.getWriter().append("Hello World!");
    }
 
    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
